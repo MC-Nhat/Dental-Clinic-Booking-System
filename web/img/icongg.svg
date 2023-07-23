@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Google" transform="translate(-5867 -6648)">
+    <g id="椭圆_172" data-name="椭圆 172" transform="translate(5867 6648)" fill="#fff" stroke="#efefef" stroke-width="1">
+      <circle cx="24" cy="24" r="24" stroke="none"/>
+      <circle cx="24" cy="24" r="23.5" fill="none"/>
+    </g>
+    <g id="Google-2" data-name="Google" transform="translate(5702.579 5687.579)">
+      <g id="组_1508" data-name="组 1508" transform="translate(173 969)">
+        <rect id="矩形_239" data-name="矩形 239" width="30.842" height="30.842" fill="none" opacity="0.37"/>
+      </g>
+      <g id="组_980" data-name="组 980" transform="translate(175.57 970.928)">
+        <path id="路径_618" data-name="路径 618" d="M361.481,637.752h-1.076V637.7H348.371v5.349h7.558a8.03,8.03,0,1,1-2.235-8.665l3.781-3.781a13.338,13.338,0,1,0,4.006,7.153Zm0,0" transform="translate(-335 -627)" fill="#ffc107"/>
+        <path id="路径_619" data-name="路径 619" d="M339.609,634.148l4.4,3.222a8,8,0,0,1,12.757-2.99l3.781-3.781a13.344,13.344,0,0,0-20.934,3.549Zm0,0" transform="translate(-338.068 -627)" fill="#ff3d00"/>
+        <path id="路径_620" data-name="路径 620" d="M351.294,685.769a13.315,13.315,0,0,0,8.965-3.471l-4.139-3.5a8,8,0,0,1-12.368-3.688l-4.361,3.359a13.36,13.36,0,0,0,11.9,7.3Zm0,0" transform="translate(-337.923 -659.027)" fill="#4caf50"/>
+        <path id="路径_621" data-name="路径 621" d="M388.11,659.055h-1.076V659H375v5.349h7.558a8.058,8.058,0,0,1-2.734,3.724h0l4.139,3.5a12.944,12.944,0,0,0,4.406-9.9,13.335,13.335,0,0,0-.261-2.619Zm0,0" transform="translate(-361.629 -648.303)" fill="#1976d2"/>
+      </g>
+    </g>
+  </g>
+</svg>
