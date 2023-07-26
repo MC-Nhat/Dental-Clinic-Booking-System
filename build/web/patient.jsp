@@ -95,7 +95,8 @@
                                                             <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
                                                             <div class="dropdown-menu dropdown-menu-right">
         <!--                                                        <a class="dropdown-item" href="editPatientServlet?id=${p.getId()}"><i class="fa fa-pencil m-r-5"></i> Edit</a>-->
-                                                            <a class="dropdown-item" href="MainController?action=deletePatient&sid=${acc.getId()}"><i class="fa fa-trash-o m-r-5"></i> Xóa bệnh nhân</a>
+<!--                                                            <a class="dropdown-item" href="MainController?action=deletePatient&sid=${acc.getId()}"><i class="fa fa-trash-o m-r-5"></i> Xóa bệnh nhân</a>-->
+                                                            <a class="dropdown-item delete-patient" ><i class="fa fa-trash-o m-r-5"></i>Xóa bệnh nhân</a>
 
                                                         </div>
                                                     </div>
@@ -111,7 +112,7 @@
                                                     <ul class="pagination float-right">
                                                     <c:if test="${currentPage > 1}">
                                                         <li class="page-item">
-                                                            <a class="page-link" href="Patient?page=${currentPage - 1}&click=true" tabindex="-1">Previous</a>
+                                                            <a class="page-link" href="Patient?page=${currentPage - 1}&click=true" tabindex="-1">Trước</a>
                                                         </li>
                                                     </c:if>
 
@@ -133,13 +134,41 @@
                                                     </c:choose>
                                                     <c:if test="${currentPage < 6}">
                                                         <li class="page-item">
-                                                            <a class="page-link" href="Patient?page=${currentPage + 1}&click=true">Next</a>
+                                                            <a class="page-link" href="Patient?page=${currentPage + 1}&click=true">Kế Tiếp</a>
                                                         </li>
                                                     </c:if>
                                                 </ul>
                                             </div>
                                         </div>
-                                    </div>                  
+                                    </div>                                  
                             </tbody>
+                             <script src="assets/js/title_sort.js"></script>                        
+
+<!--        <script src="assets/js/jquery.dataTables.min.js"></script>
+        <script src="assets/js/dataTables.bootstrap4.min.js"></script>
+
+        <script src="assets/js/select2.min.js"></script>
+        <script src="assets/js/moment.min.js"></script>
+        <script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>-->
+        <script>
+            document.querySelectorAll('.delete-patient').forEach(function (item) {
+                item.addEventListener('click', function (event) {
+                    event.preventDefault();
+
+                    // Lưu trữ thẻ <tr> chứa thông tin dịch vụ
+                    var patientRow = this.closest('tr');
+
+                    // Lấy giá trị ID từ phần tử <td> trong thẻ <tr>
+                    var patientID = patientRow.querySelector('td:first-child').textContent;
+                    var comfirmation = confirm("Bạn có chắc muốn xóa chứ?");
+                    if (comfirmation) {
+                        url = "MainController?action=deletePatient&sid=" + patientID;
+                        window.location.href = url;
+                    }
+                });
+            });
+
+        </script>
                             </body>
                             </html>

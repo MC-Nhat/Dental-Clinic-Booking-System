@@ -443,7 +443,7 @@
                             hàng, Nha Khoa DentCare xây dựng chính sách bảng giá dịch vụ nha khoa hợp lý với nhiều mức giá
                             rõ ràng cho từng dịch vụ điều trị bệnh.</p>
                         <h5 class="text-uppercase text-primary wow fadeInUp" data-wow-delay="0.3s">Gọi cho cuộc hẹn</h5>
-                        <h1 class="wow fadeInUp" data-wow-delay="0.6s">+084 345 6789</h1>
+                        <h1 class="wow fadeInUp" data-wow-delay="0.6s">+84 374 312 384</h1>
                     </div>
                     <div class="col-lg-7">
                         <div class="owl-carousel price-carousel wow zoomIn" data-wow-delay="0.9s">

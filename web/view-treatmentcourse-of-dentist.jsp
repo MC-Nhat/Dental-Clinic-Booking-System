@@ -108,7 +108,7 @@
                                                     <c:if test="${listD.statusPaid == false}">
                                                         <td style="color: #35BA67; font-weight: bold;">Chưa thanh toán</td>
                                                     </c:if>
-                                                    <td><a href="edit-treatmentcoursedetail.jsp?idDetail=${listD.id}" class="">Chỉnh sửa</a></td> 
+                                                    <td><a href="edit-treatmentcoursedetail.jsp?idDetail=${listD.id}" style="color: black">Chỉnh sửa</a></td> 
                                                 </c:if>
                                             </tr>
                                         </c:forEach>                                       

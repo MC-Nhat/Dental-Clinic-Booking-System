@@ -99,7 +99,7 @@ public class UserDAO {
         try {
             con = Util.getConnection();
             if (con != null) {
-                String sql = "select count(*) from tblUser where idRole =5";
+                String sql = "select count(*) from tblUser where idRole =5 and status = 1";
                 stm = con.prepareStatement(sql);
                 rs = stm.executeQuery();
                 while (rs.next()) {

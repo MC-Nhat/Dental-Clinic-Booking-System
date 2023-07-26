@@ -124,7 +124,7 @@
                                     <ul class="pagination float-right">
                                     <c:if test="${currentPage > 1}">
                                         <li class="page-item">
-                                            <a class="page-link" href="loadServiceController?page=${currentPage - 1}&click=true" tabindex="-1">Previous</a>
+                                            <a class="page-link" href="loadServiceController?page=${currentPage - 1}&click=true" tabindex="-1">Trước</a>
                                         </li>
                                     </c:if>
 
@@ -153,7 +153,7 @@
                                     </c:choose>
                                     <c:if test="${currentPage < totalPages}">
                                         <li class="page-item">
-                                            <a class="page-link" href="loadServiceController?page=${currentPage + 1}&click=true">Next</a>
+                                            <a class="page-link" href="loadServiceController?page=${currentPage + 1}&click=true">Kế Tiếp</a>
                                         </li>
                                     </c:if>
                                 </ul>
